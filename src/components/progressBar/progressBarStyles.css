@@ -1,0 +1,5 @@
+.pBar{
+    transition-property: width;
+    transition-duration: 2000;
+    transition-timing-function: ease-in-out;
+}

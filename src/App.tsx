@@ -5,6 +5,7 @@ import TodoList from "./components/todoList";
 import StarRating from "./components/starRating";
 import Tictactoe from "./components/tictactoe";
 import JobBoard from "./components/jobBoard";
+import ProgressBar from "./components/progressBar/progressBar";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/star" element={<StarRating />} />
         <Route path="/tictactoe" element={<Tictactoe />} />
         <Route path="/jobboard" element={<JobBoard />} />
+        <Route path="/progressbar" element={<ProgressBar />} />
       </Routes>
     </BrowserRouter>
   );
